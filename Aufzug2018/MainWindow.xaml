@@ -1,0 +1,19 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aufzug2018"
+        mc:Ignorable="d"
+        Title="Aufzug Simulator" Height="324.872" Width="358.846" Initialized="Window_Initialized" ResizeMode="NoResize" >
+    <Grid>
+
+        <local:Aufzug x:Name="objAufzug" HorizontalAlignment="Left" Margin="109,10,0,0" VerticalAlignment="Top" Width="141"/>
+        <Button x:Name="btnKeller" Content="Keller" HorizontalAlignment="Left" Margin="10,253,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnErdgeschoss" Content="Erdgeschoss" HorizontalAlignment="Left" Margin="90,253,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnEtage1" Content="1. Etage" HorizontalAlignment="Left" Margin="170,253,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnEtage2" Content="2. Etage" HorizontalAlignment="Left" Margin="250,253,0,0" VerticalAlignment="Top" Width="75"/>
+
+
+    </Grid>
+</Window>
